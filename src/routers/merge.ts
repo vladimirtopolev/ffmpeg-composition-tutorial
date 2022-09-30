@@ -12,7 +12,6 @@ const router = new Router({
   prefix: '/merge',
 });
 
-// TEST ROUTING
 router.get('/', async (ctx) => {
   const dataFromFE = {
     firstName: 'Ivan',
